@@ -1,0 +1,1906 @@
+{
+  "operationalLayers": [
+    {
+      "id": "1a1afd7d5e0-layer-4",
+      "opacity": 0.8,
+      "title": "E1 | Lufttemperatur 04 Uhr (Modell)",
+      "url": "https://services4.arcgis.com/ytbvFxCAW98t5br2/arcgis/rest/services/Berlin_Lufttemperatur_04Uhr/FeatureServer/1",
+      "visibility": true,
+      "itemId": "36507e9229d746f5b43e25e979de385a",
+      "layerType": "ArcGISFeatureLayer",
+      "blendMode": "normal",
+      "effect": null,
+      "layerDefinition": {
+        "fieldConfigurations": [
+          {
+            "name": "t2m04h",
+            "fieldFormat": {
+              "type": "number",
+              "useGrouping": "always"
+            }
+          }
+        ],
+        "drawingInfo": {
+          "renderer": {
+            "authoringInfo": {
+              "classificationMethod": "esriClassifyEqualInterval",
+              "type": "classedColor"
+            },
+            "type": "classBreaks",
+            "classBreakInfos": [
+              {
+                "label": "14,2 – 15,56",
+                "classMaxValue": 15.564,
+                "symbol": {
+                  "type": "esriSFS",
+                  "color": [
+                    239,
+                    243,
+                    255,
+                    255
+                  ],
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      153,
+                      153,
+                      153,
+                      64
+                    ],
+                    "width": 0.375,
+                    "style": "esriSLSSolid"
+                  },
+                  "style": "esriSFSSolid"
+                }
+              },
+              {
+                "label": "> 15,56 – 16,86",
+                "classMaxValue": 16.868000000000002,
+                "symbol": {
+                  "type": "esriSFS",
+                  "color": [
+                    189,
+                    215,
+                    231,
+                    255
+                  ],
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      153,
+                      153,
+                      153,
+                      64
+                    ],
+                    "width": 0.375,
+                    "style": "esriSLSSolid"
+                  },
+                  "style": "esriSFSSolid"
+                }
+              },
+              {
+                "label": "> 16,86 – 18,17",
+                "classMaxValue": 18.172000000000004,
+                "symbol": {
+                  "type": "esriSFS",
+                  "color": [
+                    107,
+                    174,
+                    214,
+                    255
+                  ],
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      153,
+                      153,
+                      153,
+                      64
+                    ],
+                    "width": 0.375,
+                    "style": "esriSLSSolid"
+                  },
+                  "style": "esriSFSSolid"
+                }
+              },
+              {
+                "label": "> 18,17 – 19,47",
+                "classMaxValue": 19.476000000000006,
+                "symbol": {
+                  "type": "esriSFS",
+                  "color": [
+                    49,
+                    130,
+                    189,
+                    255
+                  ],
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      153,
+                      153,
+                      153,
+                      64
+                    ],
+                    "width": 0.375,
+                    "style": "esriSLSSolid"
+                  },
+                  "style": "esriSFSSolid"
+                }
+              },
+              {
+                "label": "> 19,47 – 20,77",
+                "classMaxValue": 20.78,
+                "symbol": {
+                  "type": "esriSFS",
+                  "color": [
+                    8,
+                    81,
+                    156,
+                    255
+                  ],
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      153,
+                      153,
+                      153,
+                      64
+                    ],
+                    "width": 0.375,
+                    "style": "esriSLSSolid"
+                  },
+                  "style": "esriSFSSolid"
+                }
+              }
+            ],
+            "defaultLabel": "Sonstiges",
+            "defaultSymbol": {
+              "type": "esriSFS",
+              "color": [
+                170,
+                170,
+                170,
+                255
+              ],
+              "outline": {
+                "type": "esriSLS",
+                "color": [
+                  153,
+                  153,
+                  153,
+                  64
+                ],
+                "width": 0.375,
+                "style": "esriSLSSolid"
+              },
+              "style": "esriSFSSolid"
+            },
+            "field": "t2m04h",
+            "minValue": 14.26
+          }
+        }
+      },
+      "popupInfo": {
+        "popupElements": [
+          {
+            "type": "fields",
+            "fieldInfos": [
+              {
+                "fieldName": "t2m04h",
+                "isEditable": true,
+                "label": "temperatur",
+                "visible": true
+              },
+              {
+                "fieldName": "Uhrzeit",
+                "isEditable": true,
+                "label": "Uhrzeit",
+                "visible": true
+              }
+            ]
+          }
+        ],
+        "fieldInfos": [
+          {
+            "fieldName": "t2m04h",
+            "isEditable": true,
+            "label": "temperatur",
+            "visible": true
+          },
+          {
+            "fieldName": "Uhrzeit",
+            "isEditable": true,
+            "label": "Uhrzeit",
+            "visible": true
+          }
+        ],
+        "title": "Nächtliche Lufttemperatur (Modell)"
+      }
+    },
+    {
+      "id": "1a1afd7d000-layer-3",
+      "title": "Gebiet | LOR-Bezirksregionen (2023)",
+      "url": "https://services2.arcgis.com/jUpNdisbWqRpMo35/arcgis/rest/services/Berlin_LOR_Bezirksregionen/FeatureServer/0",
+      "visibility": false,
+      "itemId": "9418b96664554dbf9f92f94ed2d102cc",
+      "layerType": "ArcGISFeatureLayer",
+      "blendMode": "normal",
+      "popupInfo": {
+        "popupElements": [
+          {
+            "type": "fields",
+            "fieldInfos": [
+              {
+                "fieldName": "bezirksname",
+                "isEditable": true,
+                "label": "bezirksname",
+                "visible": true
+              },
+              {
+                "fieldName": "bezirksregion",
+                "isEditable": true,
+                "label": "bezirksregion",
+                "visible": true
+              },
+              {
+                "fieldName": "datum_gueltig_ab",
+                "isEditable": true,
+                "label": "datum_gueltig_ab",
+                "visible": true
+              }
+            ]
+          }
+        ],
+        "fieldInfos": [
+          {
+            "fieldName": "bezirksname",
+            "isEditable": true,
+            "label": "bezirksname",
+            "visible": true
+          },
+          {
+            "fieldName": "bezirksregion",
+            "isEditable": true,
+            "label": "bezirksregion",
+            "visible": true
+          },
+          {
+            "fieldName": "datum_gueltig_ab",
+            "isEditable": true,
+            "label": "datum_gueltig_ab",
+            "visible": true
+          }
+        ],
+        "title": "Bezirksregion {bezirksregion}"
+      },
+      "layerDefinition": {
+        "drawingInfo": {
+          "renderer": {
+            "type": "simple",
+            "symbol": {
+              "type": "esriSFS",
+              "color": [
+                255,
+                255,
+                255,
+                0
+              ],
+              "outline": {
+                "type": "esriSLS",
+                "color": [
+                  55,
+                  75,
+                  90,
+                  102
+                ],
+                "width": 0.6,
+                "style": "esriSLSSolid"
+              },
+              "style": "esriSFSSolid"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "1a1afd7dd2d-layer-5",
+      "title": "E1 | Lufttemperatur 14 Uhr (Modell)",
+      "url": "https://services4.arcgis.com/ytbvFxCAW98t5br2/arcgis/rest/services/Berlin_Lufttemperatur_14Uhr/FeatureServer/1",
+      "visibility": false,
+      "itemId": "e58456698a71480cae698c76c27d36cf",
+      "layerType": "ArcGISFeatureLayer",
+      "blendMode": "normal",
+      "effect": null,
+      "layerDefinition": {
+        "fieldConfigurations": [
+          {
+            "alias": "Lufttemperatur in 2m Höhe um 14 Uhr [°C]",
+            "name": "t2m14h",
+            "fieldFormat": {
+              "type": "number",
+              "maximumFractionDigits": 6,
+              "minimumFractionDigits": 6,
+              "useGrouping": "never"
+            }
+          },
+          {
+            "alias": "SHAPE__Length",
+            "name": "Shape__Length",
+            "fieldFormat": {
+              "type": "number",
+              "maximumFractionDigits": 6,
+              "minimumFractionDigits": 6,
+              "useGrouping": "never"
+            }
+          },
+          {
+            "alias": "SHAPE__Area",
+            "name": "Shape__Area",
+            "fieldFormat": {
+              "type": "number",
+              "maximumFractionDigits": 6,
+              "minimumFractionDigits": 6,
+              "useGrouping": "never"
+            }
+          }
+        ],
+        "drawingInfo": {
+          "renderer": {
+            "authoringInfo": {
+              "classificationMethod": "esriClassifyEqualInterval",
+              "type": "classedColor"
+            },
+            "type": "classBreaks",
+            "classBreakInfos": [
+              {
+                "label": "22,3 – 24,79",
+                "classMaxValue": 24.794,
+                "symbol": {
+                  "type": "esriSFS",
+                  "color": [
+                    239,
+                    243,
+                    255,
+                    255
+                  ],
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      153,
+                      153,
+                      153,
+                      64
+                    ],
+                    "width": 0.375,
+                    "style": "esriSLSSolid"
+                  },
+                  "style": "esriSFSSolid"
+                }
+              },
+              {
+                "label": "> 24,79 – 27,2",
+                "classMaxValue": 27.268,
+                "symbol": {
+                  "type": "esriSFS",
+                  "color": [
+                    189,
+                    215,
+                    231,
+                    255
+                  ],
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      153,
+                      153,
+                      153,
+                      64
+                    ],
+                    "width": 0.375,
+                    "style": "esriSLSSolid"
+                  },
+                  "style": "esriSFSSolid"
+                }
+              },
+              {
+                "label": "> 27,2 – 29,7",
+                "classMaxValue": 29.742,
+                "symbol": {
+                  "type": "esriSFS",
+                  "color": [
+                    107,
+                    174,
+                    214,
+                    255
+                  ],
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      153,
+                      153,
+                      153,
+                      64
+                    ],
+                    "width": 0.375,
+                    "style": "esriSLSSolid"
+                  },
+                  "style": "esriSFSSolid"
+                }
+              },
+              {
+                "label": "> 29,7 – 32,2",
+                "classMaxValue": 32.216,
+                "symbol": {
+                  "type": "esriSFS",
+                  "color": [
+                    49,
+                    130,
+                    189,
+                    255
+                  ],
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      153,
+                      153,
+                      153,
+                      64
+                    ],
+                    "width": 0.375,
+                    "style": "esriSLSSolid"
+                  },
+                  "style": "esriSFSSolid"
+                }
+              },
+              {
+                "label": "> 32,2 – 34,6",
+                "classMaxValue": 34.69,
+                "symbol": {
+                  "type": "esriSFS",
+                  "color": [
+                    8,
+                    81,
+                    156,
+                    255
+                  ],
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      153,
+                      153,
+                      153,
+                      64
+                    ],
+                    "width": 0.375,
+                    "style": "esriSLSSolid"
+                  },
+                  "style": "esriSFSSolid"
+                }
+              }
+            ],
+            "defaultLabel": "Sonstiges",
+            "defaultSymbol": {
+              "type": "esriSFS",
+              "color": [
+                170,
+                170,
+                170,
+                255
+              ],
+              "outline": {
+                "type": "esriSLS",
+                "color": [
+                  153,
+                  153,
+                  153,
+                  64
+                ],
+                "width": 0.375,
+                "style": "esriSLSSolid"
+              },
+              "style": "esriSFSSolid"
+            },
+            "field": "t2m14h",
+            "minValue": 22.32
+          }
+        }
+      }
+    },
+    {
+      "id": "1a1afd7e41a-layer-6",
+      "title": "E4 | Versiegelung 2021",
+      "url": "https://services4.arcgis.com/ytbvFxCAW98t5br2/arcgis/rest/services/versiegelung_berlin_merge_2021/FeatureServer/0",
+      "visibility": false,
+      "itemId": "6f9011ff438146da814f604ebb3bbc96",
+      "layerType": "ArcGISFeatureLayer",
+      "blendMode": "normal",
+      "layerDefinition": {
+        "fieldConfigurations": [
+          {
+            "name": "vg",
+            "fieldFormat": {
+              "type": "number",
+              "useGrouping": "always"
+            }
+          },
+          {
+            "name": "vg_2016",
+            "fieldFormat": {
+              "type": "number",
+              "useGrouping": "always"
+            }
+          },
+          {
+            "name": "vg_dif21_16",
+            "fieldFormat": {
+              "type": "number",
+              "useGrouping": "always"
+            }
+          }
+        ],
+        "drawingInfo": {
+          "renderer": {
+            "authoringInfo": {
+              "classificationMethod": "esriClassifyEqualInterval",
+              "type": "classedColor"
+            },
+            "type": "classBreaks",
+            "classBreakInfos": [
+              {
+                "label": "0 – 20",
+                "classMaxValue": 20,
+                "symbol": {
+                  "type": "esriSFS",
+                  "color": [
+                    239,
+                    243,
+                    255,
+                    255
+                  ],
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      153,
+                      153,
+                      153,
+                      64
+                    ],
+                    "width": 0.375,
+                    "style": "esriSLSSolid"
+                  },
+                  "style": "esriSFSSolid"
+                }
+              },
+              {
+                "label": "> 20 – 40",
+                "classMaxValue": 40,
+                "symbol": {
+                  "type": "esriSFS",
+                  "color": [
+                    189,
+                    215,
+                    231,
+                    255
+                  ],
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      153,
+                      153,
+                      153,
+                      64
+                    ],
+                    "width": 0.375,
+                    "style": "esriSLSSolid"
+                  },
+                  "style": "esriSFSSolid"
+                }
+              },
+              {
+                "label": "> 40 – 60",
+                "classMaxValue": 60,
+                "symbol": {
+                  "type": "esriSFS",
+                  "color": [
+                    107,
+                    174,
+                    214,
+                    255
+                  ],
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      153,
+                      153,
+                      153,
+                      64
+                    ],
+                    "width": 0.375,
+                    "style": "esriSLSSolid"
+                  },
+                  "style": "esriSFSSolid"
+                }
+              },
+              {
+                "label": "> 60 – 80",
+                "classMaxValue": 80,
+                "symbol": {
+                  "type": "esriSFS",
+                  "color": [
+                    49,
+                    130,
+                    189,
+                    255
+                  ],
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      153,
+                      153,
+                      153,
+                      64
+                    ],
+                    "width": 0.375,
+                    "style": "esriSLSSolid"
+                  },
+                  "style": "esriSFSSolid"
+                }
+              },
+              {
+                "label": "> 80 – 100",
+                "classMaxValue": 100,
+                "symbol": {
+                  "type": "esriSFS",
+                  "color": [
+                    8,
+                    81,
+                    156,
+                    255
+                  ],
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      153,
+                      153,
+                      153,
+                      64
+                    ],
+                    "width": 0.375,
+                    "style": "esriSLSSolid"
+                  },
+                  "style": "esriSFSSolid"
+                }
+              }
+            ],
+            "defaultLabel": "Sonstiges",
+            "defaultSymbol": {
+              "type": "esriSFS",
+              "color": [
+                170,
+                170,
+                170,
+                255
+              ],
+              "outline": {
+                "type": "esriSLS",
+                "color": [
+                  153,
+                  153,
+                  153,
+                  64
+                ],
+                "width": 0.375,
+                "style": "esriSLSSolid"
+              },
+              "style": "esriSFSSolid"
+            },
+            "field": "vg",
+            "minValue": 0
+          }
+        }
+      },
+      "popupInfo": {
+        "popupElements": [
+          {
+            "type": "fields",
+            "fieldInfos": [
+              {
+                "fieldName": "bezirk",
+                "isEditable": true,
+                "label": "bezirk",
+                "visible": true
+              },
+              {
+                "fieldName": "vg",
+                "isEditable": true,
+                "label": "vg",
+                "visible": true
+              },
+              {
+                "fieldName": "vg_2016",
+                "isEditable": true,
+                "label": "vg_2016",
+                "visible": true
+              },
+              {
+                "fieldName": "vg_dif21_16",
+                "isEditable": true,
+                "label": "vg_dif21_16",
+                "visible": true
+              },
+              {
+                "fieldName": "MERGE_SRC",
+                "isEditable": true,
+                "label": "MERGE_SRC",
+                "visible": true
+              }
+            ]
+          }
+        ],
+        "fieldInfos": [
+          {
+            "fieldName": "bezirk",
+            "isEditable": true,
+            "label": "bezirk",
+            "visible": true
+          },
+          {
+            "fieldName": "vg",
+            "isEditable": true,
+            "label": "vg",
+            "visible": true
+          },
+          {
+            "fieldName": "vg_2016",
+            "isEditable": true,
+            "label": "vg_2016",
+            "visible": true
+          },
+          {
+            "fieldName": "vg_dif21_16",
+            "isEditable": true,
+            "label": "vg_dif21_16",
+            "visible": true
+          },
+          {
+            "fieldName": "MERGE_SRC",
+            "isEditable": true,
+            "label": "MERGE_SRC",
+            "visible": true
+          }
+        ],
+        "title": "Versiegelung – Vergleich 2016/2021"
+      }
+    },
+    {
+      "id": "1a1afd7eab9-layer-7",
+      "title": "E4 | Grün- und Freiflächen ab 2021",
+      "url": "https://services4.arcgis.com/ytbvFxCAW98t5br2/arcgis/rest/services/Grün und Freiflächenbestand Dissolve/FeatureServer/0",
+      "visibility": false,
+      "itemId": "c707a361360941569e9adf2b53adf9a2",
+      "layerType": "ArcGISFeatureLayer",
+      "blendMode": "normal",
+      "layerDefinition": {
+        "drawingInfo": {
+          "renderer": {
+            "type": "simple",
+            "symbol": {
+              "type": "esriSFS",
+              "color": [
+                47,
+                151,
+                94,
+                87
+              ],
+              "outline": {
+                "type": "esriSLS",
+                "color": [
+                  36,
+                  110,
+                  69,
+                  128
+                ],
+                "width": 0.5,
+                "style": "esriSLSSolid"
+              },
+              "style": "esriSFSSolid"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "1a1afd7f227-layer-8",
+      "title": "E4 | Baumkataster 2024",
+      "url": "https://services2.arcgis.com/jUpNdisbWqRpMo35/arcgis/rest/services/Baumkataster_Berlin/FeatureServer/0",
+      "visibility": false,
+      "itemId": "05c3f9d7dea6422b86e30967811bddd7",
+      "layerType": "ArcGISFeatureLayer",
+      "blendMode": "normal",
+      "layerDefinition": {
+        "fieldConfigurations": [
+          {
+            "name": "baumhoehe",
+            "fieldFormat": {
+              "type": "number",
+              "useGrouping": "always"
+            }
+          }
+        ],
+        "drawingInfo": {
+          "renderer": {
+            "type": "simple",
+            "symbol": {
+              "type": "esriSMS",
+              "color": [
+                77,
+                77,
+                77,
+                255
+              ],
+              "angle": 0,
+              "xoffset": 0,
+              "yoffset": 0,
+              "size": 6,
+              "style": "esriSMSCircle",
+              "outline": {
+                "type": "esriSLS",
+                "color": [
+                  255,
+                  255,
+                  255,
+                  64
+                ],
+                "width": 0.75,
+                "style": "esriSLSSolid"
+              }
+            }
+          }
+        }
+      },
+      "popupInfo": {
+        "popupElements": [
+          {
+            "type": "fields",
+            "fieldInfos": [
+              {
+                "fieldName": "art_dtsch",
+                "isEditable": true,
+                "label": "Art",
+                "visible": true
+              },
+              {
+                "fieldName": "pflanzjahr",
+                "isEditable": true,
+                "label": "Pflanzjahr",
+                "visible": true
+              },
+              {
+                "fieldName": "baumhoehe",
+                "isEditable": true,
+                "label": "Höhe (m)",
+                "visible": true
+              },
+              {
+                "fieldName": "bezirk",
+                "isEditable": true,
+                "label": "Bezirk",
+                "visible": true
+              },
+              {
+                "fieldName": "eigentuemer",
+                "isEditable": true,
+                "label": "Eigentümer",
+                "visible": true
+              }
+            ]
+          }
+        ],
+        "fieldInfos": [
+          {
+            "fieldName": "art_dtsch",
+            "isEditable": true,
+            "label": "Art",
+            "visible": true
+          },
+          {
+            "fieldName": "pflanzjahr",
+            "isEditable": true,
+            "label": "Pflanzjahr",
+            "visible": true
+          },
+          {
+            "fieldName": "baumhoehe",
+            "isEditable": true,
+            "label": "Höhe (m)",
+            "visible": true
+          },
+          {
+            "fieldName": "bezirk",
+            "isEditable": true,
+            "label": "Bezirk",
+            "visible": true
+          },
+          {
+            "fieldName": "eigentuemer",
+            "isEditable": true,
+            "label": "Eigentümer",
+            "visible": true
+          }
+        ],
+        "title": "Baumkataster – {art_dtsch}"
+      }
+    },
+    {
+      "id": "1a1afd7f875-layer-9",
+      "title": "E1 | Räumlicher Energieverbrauch 2019 (Kontext)",
+      "url": "https://services6.arcgis.com/thHUj7El8wX2Jm0o/arcgis/rest/services/Energieverbrauch_Berlin/FeatureServer/0",
+      "visibility": false,
+      "itemId": "d811a4892f8b4d809724f07b69cf74e9",
+      "layerType": "ArcGISFeatureLayer",
+      "blendMode": "normal",
+      "layerDefinition": {
+        "fieldConfigurations": [
+          {
+            "name": "verbr_gesa",
+            "fieldFormat": {
+              "type": "number",
+              "useGrouping": "always"
+            }
+          },
+          {
+            "name": "verbr_gewe",
+            "fieldFormat": {
+              "type": "number",
+              "useGrouping": "always"
+            }
+          },
+          {
+            "name": "verbr_haus",
+            "fieldFormat": {
+              "type": "number",
+              "useGrouping": "always"
+            }
+          },
+          {
+            "name": "verbr_waer",
+            "fieldFormat": {
+              "type": "number",
+              "useGrouping": "always"
+            }
+          }
+        ],
+        "drawingInfo": {
+          "renderer": {
+            "authoringInfo": {
+              "classificationMethod": "esriClassifyEqualInterval",
+              "type": "classedColor"
+            },
+            "type": "classBreaks",
+            "classBreakInfos": [
+              {
+                "label": "615 – 977",
+                "classMaxValue": 977.2392285153999,
+                "symbol": {
+                  "type": "esriSFS",
+                  "color": [
+                    239,
+                    243,
+                    255,
+                    255
+                  ],
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      153,
+                      153,
+                      153,
+                      64
+                    ],
+                    "width": 0.375,
+                    "style": "esriSLSSolid"
+                  },
+                  "style": "esriSFSSolid"
+                }
+              },
+              {
+                "label": "> 977 – 1.339",
+                "classMaxValue": 1339.0982140307997,
+                "symbol": {
+                  "type": "esriSFS",
+                  "color": [
+                    189,
+                    215,
+                    231,
+                    255
+                  ],
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      153,
+                      153,
+                      153,
+                      64
+                    ],
+                    "width": 0.375,
+                    "style": "esriSLSSolid"
+                  },
+                  "style": "esriSFSSolid"
+                }
+              },
+              {
+                "label": "> 1.339 – 1.700",
+                "classMaxValue": 1700.9571995461997,
+                "symbol": {
+                  "type": "esriSFS",
+                  "color": [
+                    107,
+                    174,
+                    214,
+                    255
+                  ],
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      153,
+                      153,
+                      153,
+                      64
+                    ],
+                    "width": 0.375,
+                    "style": "esriSLSSolid"
+                  },
+                  "style": "esriSFSSolid"
+                }
+              },
+              {
+                "label": "> 1.700 – 2.062",
+                "classMaxValue": 2062.8161850615998,
+                "symbol": {
+                  "type": "esriSFS",
+                  "color": [
+                    49,
+                    130,
+                    189,
+                    255
+                  ],
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      153,
+                      153,
+                      153,
+                      64
+                    ],
+                    "width": 0.375,
+                    "style": "esriSLSSolid"
+                  },
+                  "style": "esriSFSSolid"
+                }
+              },
+              {
+                "label": "> 2.062 – 2.424",
+                "classMaxValue": 2424.675170577,
+                "symbol": {
+                  "type": "esriSFS",
+                  "color": [
+                    8,
+                    81,
+                    156,
+                    255
+                  ],
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      153,
+                      153,
+                      153,
+                      64
+                    ],
+                    "width": 0.375,
+                    "style": "esriSLSSolid"
+                  },
+                  "style": "esriSFSSolid"
+                }
+              }
+            ],
+            "defaultLabel": "Sonstiges",
+            "defaultSymbol": {
+              "type": "esriSFS",
+              "color": [
+                170,
+                170,
+                170,
+                255
+              ],
+              "outline": {
+                "type": "esriSLS",
+                "color": [
+                  153,
+                  153,
+                  153,
+                  64
+                ],
+                "width": 0.375,
+                "style": "esriSLSSolid"
+              },
+              "style": "esriSFSSolid"
+            },
+            "field": "verbr_gesa",
+            "minValue": 615.380243
+          }
+        }
+      },
+      "popupInfo": {
+        "popupElements": [
+          {
+            "type": "fields",
+            "fieldInfos": [
+              {
+                "fieldName": "bezirk",
+                "isEditable": true,
+                "label": "bezirk",
+                "visible": true
+              },
+              {
+                "fieldName": "verbr_gesa",
+                "isEditable": true,
+                "label": "verbr_gesa",
+                "visible": true
+              },
+              {
+                "fieldName": "verbr_gewe",
+                "isEditable": true,
+                "label": "verbr_gewe",
+                "visible": true
+              },
+              {
+                "fieldName": "verbr_haus",
+                "isEditable": true,
+                "label": "verbr_haus",
+                "visible": true
+              },
+              {
+                "fieldName": "verbr_waer",
+                "isEditable": true,
+                "label": "verbr_waer",
+                "visible": true
+              }
+            ]
+          }
+        ],
+        "fieldInfos": [
+          {
+            "fieldName": "bezirk",
+            "isEditable": true,
+            "label": "bezirk",
+            "visible": true
+          },
+          {
+            "fieldName": "verbr_gesa",
+            "isEditable": true,
+            "label": "verbr_gesa",
+            "visible": true
+          },
+          {
+            "fieldName": "verbr_gewe",
+            "isEditable": true,
+            "label": "verbr_gewe",
+            "visible": true
+          },
+          {
+            "fieldName": "verbr_haus",
+            "isEditable": true,
+            "label": "verbr_haus",
+            "visible": true
+          },
+          {
+            "fieldName": "verbr_waer",
+            "isEditable": true,
+            "label": "verbr_waer",
+            "visible": true
+          }
+        ],
+        "title": "Räumlicher Energieverbrauch (Kontext 2019)"
+      }
+    },
+    {
+      "id": "1a1afd7ff57-layer-10",
+      "title": "S3 | Umweltgerechtigkeit (sekundäre Ableitung)",
+      "visibility": false,
+      "layers": [
+        {
+          "id": "1a1afd8015f-layer-11",
+          "title": "Luftschadstoffbelastung",
+          "url": "https://services6.arcgis.com/7MVLeD9IXInfDp59/arcgis/rest/services/Umweltgerechtigkeit_in_Berlin_WFL1/FeatureServer/5",
+          "itemId": "4c5bb9a6012f40a08745ba5f906de450",
+          "layerType": "ArcGISFeatureLayer",
+          "blendMode": "normal",
+          "layerDefinition": {
+            "fieldConfigurations": [
+              {
+                "name": "Luft_Perz_",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "never"
+                }
+              },
+              {
+                "name": "Shape__Area",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Shape__Length",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "1a1afd80160-layer-12",
+          "title": "Thermische Bleastung",
+          "url": "https://services6.arcgis.com/7MVLeD9IXInfDp59/arcgis/rest/services/Umweltgerechtigkeit_in_Berlin_WFL1/FeatureServer/4",
+          "itemId": "4c5bb9a6012f40a08745ba5f906de450",
+          "layerType": "ArcGISFeatureLayer",
+          "blendMode": "normal",
+          "layerDefinition": {
+            "fieldConfigurations": [
+              {
+                "name": "Per_neu",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "never"
+                }
+              },
+              {
+                "name": "Shape__Area",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Shape__Length",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "1a1afd80160-layer-13",
+          "title": "Soziale Benachteiligung",
+          "url": "https://services6.arcgis.com/7MVLeD9IXInfDp59/arcgis/rest/services/Umweltgerechtigkeit_in_Berlin_WFL1/FeatureServer/3",
+          "itemId": "4c5bb9a6012f40a08745ba5f906de450",
+          "layerType": "ArcGISFeatureLayer",
+          "blendMode": "normal",
+          "layerDefinition": {
+            "fieldConfigurations": [
+              {
+                "name": "Shape__Area",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Shape__Length",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "1a1afd80160-layer-14",
+          "title": "Grünflächenversorgung",
+          "url": "https://services6.arcgis.com/7MVLeD9IXInfDp59/arcgis/rest/services/Umweltgerechtigkeit_in_Berlin_WFL1/FeatureServer/2",
+          "itemId": "4c5bb9a6012f40a08745ba5f906de450",
+          "layerType": "ArcGISFeatureLayer",
+          "blendMode": "normal",
+          "layerDefinition": {
+            "fieldConfigurations": [
+              {
+                "name": "Shape__Area",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Shape__Length",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "1a1afd80160-layer-15",
+          "title": "Laermbelastung",
+          "url": "https://services6.arcgis.com/7MVLeD9IXInfDp59/arcgis/rest/services/Umweltgerechtigkeit_in_Berlin_WFL1/FeatureServer/1",
+          "itemId": "4c5bb9a6012f40a08745ba5f906de450",
+          "layerType": "ArcGISFeatureLayer",
+          "blendMode": "normal",
+          "layerDefinition": {
+            "fieldConfigurations": [
+              {
+                "name": "Larm_Perz_",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "never"
+                }
+              },
+              {
+                "name": "Shape__Area",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Shape__Length",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "1a1afd80160-layer-16",
+          "title": "Umweltgerechtigkeit Ergebnis",
+          "url": "https://services6.arcgis.com/7MVLeD9IXInfDp59/arcgis/rest/services/Umweltgerechtigkeit_in_Berlin_WFL1/FeatureServer/0",
+          "itemId": "4c5bb9a6012f40a08745ba5f906de450",
+          "layerType": "ArcGISFeatureLayer",
+          "blendMode": "normal",
+          "layerDefinition": {
+            "fieldConfigurations": [
+              {
+                "name": "Luft_Perz_",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "never"
+                }
+              },
+              {
+                "name": "Therm_Per_",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "never"
+                }
+              },
+              {
+                "name": "Perz_SI",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "never"
+                }
+              },
+              {
+                "name": "Larm_Perz_",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "never"
+                }
+              },
+              {
+                "name": "Perz_VAG_n",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "never"
+                }
+              },
+              {
+                "name": "Ergebnis_P",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "never"
+                }
+              },
+              {
+                "name": "Shape__Area",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Shape__Length",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              }
+            ],
+            "drawingInfo": {
+              "renderer": {
+                "authoringInfo": {
+                  "classificationMethod": "esriClassifyEqualInterval",
+                  "type": "classedColor"
+                },
+                "type": "classBreaks",
+                "classBreakInfos": [
+                  {
+                    "label": "0 – 20",
+                    "classMaxValue": 20,
+                    "symbol": {
+                      "type": "esriSFS",
+                      "color": [
+                        239,
+                        243,
+                        255,
+                        255
+                      ],
+                      "outline": {
+                        "type": "esriSLS",
+                        "color": [
+                          153,
+                          153,
+                          153,
+                          64
+                        ],
+                        "width": 0.375,
+                        "style": "esriSLSSolid"
+                      },
+                      "style": "esriSFSSolid"
+                    }
+                  },
+                  {
+                    "label": "> 20 – 40",
+                    "classMaxValue": 40,
+                    "symbol": {
+                      "type": "esriSFS",
+                      "color": [
+                        189,
+                        215,
+                        231,
+                        255
+                      ],
+                      "outline": {
+                        "type": "esriSLS",
+                        "color": [
+                          153,
+                          153,
+                          153,
+                          64
+                        ],
+                        "width": 0.375,
+                        "style": "esriSLSSolid"
+                      },
+                      "style": "esriSFSSolid"
+                    }
+                  },
+                  {
+                    "label": "> 40 – 60",
+                    "classMaxValue": 60,
+                    "symbol": {
+                      "type": "esriSFS",
+                      "color": [
+                        107,
+                        174,
+                        214,
+                        255
+                      ],
+                      "outline": {
+                        "type": "esriSLS",
+                        "color": [
+                          153,
+                          153,
+                          153,
+                          64
+                        ],
+                        "width": 0.375,
+                        "style": "esriSLSSolid"
+                      },
+                      "style": "esriSFSSolid"
+                    }
+                  },
+                  {
+                    "label": "> 60 – 80",
+                    "classMaxValue": 80,
+                    "symbol": {
+                      "type": "esriSFS",
+                      "color": [
+                        49,
+                        130,
+                        189,
+                        255
+                      ],
+                      "outline": {
+                        "type": "esriSLS",
+                        "color": [
+                          153,
+                          153,
+                          153,
+                          64
+                        ],
+                        "width": 0.375,
+                        "style": "esriSLSSolid"
+                      },
+                      "style": "esriSFSSolid"
+                    }
+                  },
+                  {
+                    "label": "> 80 – 100",
+                    "classMaxValue": 100,
+                    "symbol": {
+                      "type": "esriSFS",
+                      "color": [
+                        8,
+                        81,
+                        156,
+                        255
+                      ],
+                      "outline": {
+                        "type": "esriSLS",
+                        "color": [
+                          153,
+                          153,
+                          153,
+                          64
+                        ],
+                        "width": 0.375,
+                        "style": "esriSLSSolid"
+                      },
+                      "style": "esriSFSSolid"
+                    }
+                  }
+                ],
+                "defaultLabel": "Sonstiges",
+                "defaultSymbol": {
+                  "type": "esriSFS",
+                  "color": [
+                    170,
+                    170,
+                    170,
+                    255
+                  ],
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      153,
+                      153,
+                      153,
+                      64
+                    ],
+                    "width": 0.375,
+                    "style": "esriSLSSolid"
+                  },
+                  "style": "esriSFSSolid"
+                },
+                "field": "Ergebnis_P",
+                "minValue": 0
+              }
+            }
+          }
+        }
+      ],
+      "layerType": "GroupLayer",
+      "blendMode": "normal"
+    },
+    {
+      "id": "1a1afd8124c-layer-17",
+      "title": "Bestand | Gebäudeumrisse ALKIS 2025",
+      "url": "https://services2.arcgis.com/jUpNdisbWqRpMo35/arcgis/rest/services/Test/FeatureServer/0",
+      "visibility": false,
+      "itemId": "ecf431fd8c394ee1b2fd7d54563e7b81",
+      "layerType": "ArcGISFeatureLayer",
+      "blendMode": "normal",
+      "layerDefinition": {
+        "fieldConfigurations": [
+          {
+            "name": "AOG",
+            "fieldFormat": {
+              "type": "number",
+              "maximumFractionDigits": 0,
+              "useGrouping": "always"
+            }
+          }
+        ],
+        "drawingInfo": {
+          "renderer": {
+            "type": "simple",
+            "symbol": {
+              "type": "esriSFS",
+              "color": [
+                227,
+                139,
+                79,
+                255
+              ],
+              "outline": {
+                "type": "esriSLS",
+                "color": [
+                  255,
+                  255,
+                  255,
+                  64
+                ],
+                "width": 0.75,
+                "style": "esriSLSSolid"
+              },
+              "style": "esriSFSSolid"
+            }
+          }
+        }
+      },
+      "popupInfo": {
+        "popupElements": [
+          {
+            "type": "fields",
+            "fieldInfos": [
+              {
+                "fieldName": "BEZGFK",
+                "isEditable": true,
+                "label": "Bezeichnung Gebäudefunktion",
+                "visible": true
+              },
+              {
+                "fieldName": "AOG",
+                "isEditable": true,
+                "label": "Anzahl der Oberirdischen Geschosse",
+                "visible": true
+              },
+              {
+                "fieldName": "BEZZUS",
+                "isEditable": true,
+                "label": "Bezeichnung Zustand",
+                "visible": true
+              },
+              {
+                "fieldName": "KENN",
+                "isEditable": true,
+                "label": "ALKIS Kennung",
+                "visible": true
+              }
+            ]
+          }
+        ],
+        "fieldInfos": [
+          {
+            "fieldName": "BEZGFK",
+            "isEditable": true,
+            "label": "Bezeichnung Gebäudefunktion",
+            "visible": true
+          },
+          {
+            "fieldName": "AOG",
+            "isEditable": true,
+            "label": "Anzahl der Oberirdischen Geschosse",
+            "visible": true
+          },
+          {
+            "fieldName": "BEZZUS",
+            "isEditable": true,
+            "label": "Bezeichnung Zustand",
+            "visible": true
+          },
+          {
+            "fieldName": "KENN",
+            "isEditable": true,
+            "label": "ALKIS Kennung",
+            "visible": true
+          }
+        ],
+        "title": "Gebäudebestand – {BEZGFK}"
+      }
+    },
+    {
+      "id": "1a1afd8d00e-layer-20",
+      "title": "E1 | PV-Anlagen unter 30 kW (historisch)",
+      "url": "https://services6.arcgis.com/thHUj7El8wX2Jm0o/arcgis/rest/services/PV_u_30KW/FeatureServer/0",
+      "visibility": false,
+      "itemId": "de80539861fa4d6abc9f6e0c3bd616d3",
+      "layerType": "ArcGISFeatureLayer",
+      "blendMode": "normal",
+      "layerDefinition": {
+        "drawingInfo": {
+          "renderer": {
+            "type": "simple",
+            "symbol": {
+              "type": "esriSMS",
+              "color": [
+                77,
+                77,
+                77,
+                255
+              ],
+              "angle": 0,
+              "xoffset": 0,
+              "yoffset": 0,
+              "size": 6,
+              "style": "esriSMSCircle",
+              "outline": {
+                "type": "esriSLS",
+                "color": [
+                  255,
+                  255,
+                  255,
+                  64
+                ],
+                "width": 0.75,
+                "style": "esriSLSSolid"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "1a1afd8d68f-layer-21",
+      "title": "E1 | PV-Anlagen über 30 kW (historisch)",
+      "url": "https://services6.arcgis.com/thHUj7El8wX2Jm0o/arcgis/rest/services/PV_ue_30KW/FeatureServer/0",
+      "visibility": false,
+      "itemId": "ffef3e0baf35488ba5cb9ac1fa9d1a96",
+      "layerType": "ArcGISFeatureLayer",
+      "blendMode": "normal",
+      "layerDefinition": {
+        "drawingInfo": {
+          "renderer": {
+            "type": "simple",
+            "symbol": {
+              "type": "esriSMS",
+              "color": [
+                77,
+                77,
+                77,
+                255
+              ],
+              "angle": 0,
+              "xoffset": 0,
+              "yoffset": 0,
+              "size": 6,
+              "style": "esriSMSCircle",
+              "outline": {
+                "type": "esriSLS",
+                "color": [
+                  255,
+                  255,
+                  255,
+                  64
+                ],
+                "width": 0.75,
+                "style": "esriSLSSolid"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "1a1afd7ca5f-layer-2",
+      "opacity": 1,
+      "title": "Gebiet | Berliner Bezirke (ALKIS 2024)",
+      "url": "https://services2.arcgis.com/jUpNdisbWqRpMo35/arcgis/rest/services/Berlin_Bezirksgrenzen/FeatureServer/0",
+      "visibility": true,
+      "itemId": "9f5d82911d4545c4be1da8cab89f21ae",
+      "layerType": "ArcGISFeatureLayer",
+      "blendMode": "normal",
+      "popupInfo": {
+        "popupElements": [
+          {
+            "type": "fields",
+            "fieldInfos": [
+              {
+                "fieldName": "Gemeinde_n",
+                "isEditable": true,
+                "label": "Bezirks-Name",
+                "visible": true
+              },
+              {
+                "fieldName": "Gemeinde_s",
+                "isEditable": true,
+                "label": "Bezirks-Schlüssel",
+                "visible": true
+              }
+            ]
+          }
+        ],
+        "fieldInfos": [
+          {
+            "fieldName": "Gemeinde_n",
+            "isEditable": true,
+            "label": "Bezirks-Name",
+            "visible": true
+          },
+          {
+            "fieldName": "Gemeinde_s",
+            "isEditable": true,
+            "label": "Bezirks-Schlüssel",
+            "visible": true
+          }
+        ],
+        "title": "Bezirk {Gemeinde_n}"
+      },
+      "layerDefinition": {
+        "drawingInfo": {
+          "renderer": {
+            "type": "simple",
+            "symbol": {
+              "type": "esriSFS",
+              "color": [
+                255,
+                255,
+                255,
+                0
+              ],
+              "outline": {
+                "type": "esriSLS",
+                "color": [
+                  35,
+                  55,
+                  72,
+                  230
+                ],
+                "width": 1.5,
+                "style": "esriSLSSolid"
+              },
+              "style": "esriSFSSolid"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "baseMap": {
+    "baseMapLayers": [
+      {
+        "id": "gray-base-layer",
+        "opacity": 1,
+        "title": "Light Gray Base",
+        "visibility": true,
+        "layerType": "VectorTileLayer",
+        "styleUrl": "https://cdn.arcgis.com/sharing/rest/content/items/291da5eab3a0412593b66d384379f89f/resources/styles/root.json"
+      },
+      {
+        "id": "gray-reference-layer",
+        "opacity": 1,
+        "title": "Light Gray Reference",
+        "visibility": true,
+        "layerType": "VectorTileLayer",
+        "styleUrl": "https://cdn.arcgis.com/sharing/rest/content/items/1768e8369a214dfab4e2167d5c5f2454/resources/styles/root.json",
+        "isReference": true
+      }
+    ],
+    "title": "Hellgrauer Hintergrund"
+  },
+  "authoringApp": "ArcGIS API for JavaScript",
+  "authoringAppVersion": "5.1",
+  "spatialReference": {
+    "latestWkid": 3857,
+    "wkid": 102100
+  },
+  "timeZone": "system",
+  "version": "2.37",
+  "initialState": {
+    "viewpoint": {
+      "targetGeometry": {
+        "spatialReference": {
+          "latestWkid": 3857,
+          "wkid": 102100
+        },
+        "xmin": 1447198.6268197414,
+        "ymin": 6854751.438383681,
+        "xmax": 1541674.7937802556,
+        "ymax": 6929965.474216322
+      },
+      "scale": 288895.2771445,
+      "rotation": 0
+    }
+  }
+}

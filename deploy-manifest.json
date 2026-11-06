@@ -1,0 +1,18 @@
+{
+  "kind": "arcgis-nova-deployable-app",
+  "version": "0.1",
+  "generatedAt": "2026-11-06T07:59:13.835Z",
+  "title": "ESG Dashboard",
+  "authMode": "oauth",
+  "entry": "index.html",
+  "sourceAppPath": "outputs/apps/2026-11-06T07-46-29-ebefa104-e6a2-4517-960b-71d562f5fc96/index.html",
+  "files": {
+    "app": "app.json",
+    "map": "map.json",
+    "runtime": "app.js",
+    "auth": "standalone-auth.js"
+  },
+  "portalUrl": "https://www.arcgis.com",
+  "appId": "NkUs8WxflpQGOa5j",
+  "deploymentUrl": "https://mikadinnus.github.io/esg-dashboard/"
+}

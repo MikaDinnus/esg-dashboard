@@ -1,0 +1,161 @@
+{
+  "version": "0.3",
+  "kind": "app",
+  "generatedAt": "2026-11-06T07:46:29.339Z",
+  "item": {
+    "title": "ESG Dashboard",
+    "subtitle": "Öffentliche Geodaten für den Standortkontext"
+  },
+  "map": {
+    "type": "webmap",
+    "path": "./map.json"
+  },
+  "app": {
+    "template": "nova-app",
+    "preset": "map",
+    "showHeader": true,
+    "theme": {
+      "mode": "dark",
+      "accent": "default"
+    },
+    "layout": {
+      "header": {
+        "hidden": false,
+        "height": "auto",
+        "collapsed": false,
+        "blocks": [
+          {
+            "type": "customMount",
+            "id": "berlin-esg-controls"
+          }
+        ]
+      }
+    },
+    "widgets": [
+      {
+        "id": "default-legend",
+        "type": "legend",
+        "slot": "bottom-left",
+        "config": {}
+      },
+      {
+        "id": "default-layer-list",
+        "type": "layerList",
+        "slot": "top-right",
+        "config": {}
+      },
+      {
+        "id": "default-basemap-gallery",
+        "type": "basemapGallery",
+        "slot": "top-right",
+        "config": {}
+      }
+    ],
+    "interactions": [],
+    "behaviors": [
+      {
+        "id": "esg-e4-luftbild-ki",
+        "label": "Qualitative E1/E4/S3-Luftbildsichtung im 100-m-Umkreis",
+        "bundlePath": "./runtime/behaviors/esg-e4-luftbild-ki-12f47b346d8e4ba0.js",
+        "sourceSha256": "12f47b346d8e4ba0a595d9688cb6e0624de85ef8f83858d948486e8fa23bacd1",
+        "modulePaths": [
+          "esri/core/reactiveUtils",
+          "esri/geometry/geometryEngine",
+          "esri/request"
+        ],
+        "config": {
+          "radiusMeters": 100,
+          "imageryUrl": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+          "modelUrl": "https://aimodels.arcgis.com/gpt-4.1-mini/openai/v1/chat/completions",
+          "model": "gpt-4.1-mini"
+        },
+        "mounts": [],
+        "ownedLayerIds": [],
+        "interactions": [],
+        "installedAt": "2026-11-06T12:14:50.409Z"
+      },
+      {
+        "id": "berlin-esg-rebuild",
+        "label": "ESG-Standortsuche, Themenfenster und ereignisgesteuertes Leeren",
+        "bundlePath": "./runtime/behaviors/berlin-esg-rebuild-ab01b40be95bff07.js",
+        "sourceSha256": "ab01b40be95bff07e42ac4f2d4f72553e7edb098093f8878d58265d3493e5711",
+        "modulePaths": [
+          "esri/Graphic",
+          "esri/core/reactiveUtils",
+          "esri/geometry/geometryEngine",
+          "esri/rest/locator"
+        ],
+        "config": {
+          "locatorUrl": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer"
+        },
+        "mounts": [
+          "berlin-esg-controls"
+        ],
+        "ownedLayerIds": [],
+        "interactions": [],
+        "installedAt": "2026-11-06T12:17:52.649Z"
+      },
+      {
+        "id": "esg-imagery-clear-listener",
+        "label": "Luftbildantwort bei Leeren ungültig machen",
+        "bundlePath": "./runtime/behaviors/esg-imagery-clear-listener-9a451214cf49e3e8.js",
+        "sourceSha256": "9a451214cf49e3e82482381b978d08fa2e37ac8e2e640acaf6b30884894b1b94",
+        "modulePaths": [],
+        "config": {},
+        "mounts": [],
+        "ownedLayerIds": [],
+        "interactions": [],
+        "installedAt": "2026-11-06T12:18:34.662Z"
+      },
+      {
+        "id": "esg-header-actions",
+        "label": "Rahmenloser ArcGIS-Nutzer und Leeren bei der Suche",
+        "bundlePath": "./runtime/behaviors/esg-header-actions-815c129177d68a72.js",
+        "sourceSha256": "815c129177d68a72269569224a853cd480ae6f7d561dff10c1b258d266420cfc",
+        "modulePaths": [
+          "esri/portal/Portal"
+        ],
+        "config": {},
+        "mounts": [
+          "berlin-esg-controls"
+        ],
+        "ownedLayerIds": [],
+        "interactions": [],
+        "installedAt": "2026-11-06T12:28:12.225Z"
+      },
+      {
+        "id": "esg-connector-width",
+        "label": "Nur bestehende Verbindungen zu ESG-Themenfenstern betonen",
+        "bundlePath": "./runtime/behaviors/esg-connector-width-2fd153006339ea3a.js",
+        "sourceSha256": "2fd153006339ea3acbea521306f13bd5198de00fb64a89d6d83ed672bfd81821",
+        "modulePaths": [],
+        "config": {},
+        "mounts": [],
+        "ownedLayerIds": [],
+        "interactions": [],
+        "installedAt": "2026-11-06T13:03:30.420Z"
+      }
+    ]
+  },
+  "nova": {
+    "basename": "ebefa104-e6a2-4517-960b-71d562f5fc96",
+    "presentationMode": "app",
+    "ownedGraphicsLayerIds": [],
+    "origin": {
+      "portalUrl": "https://www.arcgis.com",
+      "mapId": "output-9a763452-f689-49a3-8220-6777aa04b817",
+      "mapName": "New Conversation",
+      "viewMode": "2d",
+      "capturedAt": "2026-11-06T07:59:13.835Z"
+    },
+    "sourceSelection": {
+      "mode": "all"
+    },
+    "unsupportedLayers": [],
+    "degradedFeatures": [],
+    "notes": [
+      "Vorprüfung: Im angemeldeten Organisationsbestand keine benannten Berlin- oder München-ESG-Datensätze; die Berliner Themenlayer sind externe öffentlich zugängliche Quellen.",
+      "Diese Karte ist eine Data-Assessment-Arbeitskarte, keine prüffähige ESRS-Berichtsausgabe. Berichtsscope und Gebietsauswahl folgen separat."
+    ]
+  }
+}
